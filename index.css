@@ -138,3 +138,20 @@ li :hover{
     font-size: 20px;
     color: white;
 }
+
+#portfolio{
+    position: relative;
+    margin-left: -130px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.collatz, .neurons{
+    flex-grow: 10;
+    flex-basis: 20px;
+    color:rgba(22, 139, 172, 0.735);
+    background-color: rgb(27, 4, 34);
+
+}
